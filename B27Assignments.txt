@@ -1,0 +1,56 @@
+1)To read:
+a)https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
+b)https://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language
+2)codekata practice
+3)Difference between HTTP1.1 vs HTTP2
+
+
+1)
+a)*Statically Typed Languages (Java,C,C++)    :
+
+	   >Type of the variable is known at compile time.
+	   >we should declare the type of the variable
+	   >eg:) int data = 20;
+	   >Errors are caught at early stage of development
+   
+  *Dynamically Typed Languages(JS,python,Ruby):
+  
+	   >Type of the variable is known at run time;
+	   >we dont want to declare data type;
+	   >eg:)data = 20;
+	   >No compilation stsge
+  
+b)*Scripting languages                                                   
+
+	  >All Scripting languages are  programming languages             		
+	  >It doesnot create .exe executable files   					  		
+	  >Divided in to server side scripting language and client side scripting language
+	  >It reads and analyse code line by line,if error detected	it stop addressing them one by one,hence its slow
+	  >Less memory required as no executables generated				  		
+	  >eg)JS , Ruby, Python
+  
+  *Programming languages  
+ 
+	 >All programming languages are not scripting languages
+	 >On compilation it generate .exe files that take memory
+	 >It is sub divided in to 1stGen,2ndGen,3rdGen,4thGen,5thGen.
+	 >Compiler reads and analyse the code once and collectievly take the errors,hence fast.
+	 >Less memory effiecient(take additionaltime to trastlate source code to machine code)
+	 > eg)C,C#,Java
+
+3)  HTTP1.1
+
+    >Page load takes time
+	>Single request at a time.
+	>Page load slowly
+	
+	
+	HTTP 2
+	
+	>Page load speed improved
+	>Compresstion of request headers and payload
+	>Multiple request can be sent over a single TCP connection.
+	>Able to download web files asynchronosly from web server
+	>website load faseter
+	>Convert text in to binary format before transfering over network
+
